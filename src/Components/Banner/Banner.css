@@ -1,0 +1,80 @@
+.banner-img{
+    border-radius: 40px;
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.avatar-img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    top: 85%;
+    left: 10px;
+}
+
+.react-multi-carousel-list {
+     padding-bottom: 2rem;
+}
+
+.collection-imgs{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.collection-img{
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.collection-cnt{
+    gap: 1rem;
+}
+
+.followers{
+    gap: 2rem;
+}
+.creator-heading{
+    font-size: 1.5rem;
+    color: #fff;
+    text-wrap: nowrap;
+}
+
+.creator-para{
+    color: #ccc;
+}
+
+.creator-div{
+    margin: 2% 40%;
+}
+
+@media screen and (max-width:840px){
+
+    .creator-heading{
+        font-size: 1rem;
+    }
+    .avatar-img{
+        width: 6rem;
+        height: 6rem;
+        top: 90%;
+    }
+
+    .collection-imgs{
+        height: 9rem;
+    }
+    .collection-img{
+        height: 6rem;
+    }
+    .collection-cnt{
+        gap: 0.3rem;
+    }
+    .banner-img{
+        border-radius: 40px;
+        height: 20rem;
+    }
+}
