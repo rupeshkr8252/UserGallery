@@ -34,7 +34,7 @@ const CollectionCard = () => {
   };
 
 
-  const isMobileOrTablet = window.innerWidth <= 824;
+  // const isMobileOrTablet = window.innerWidth <= 824;
 
   
 
@@ -62,7 +62,7 @@ const CollectionCard = () => {
               style={{carouselStyle}}
             > 
             {NfbCollection.map((item,index) => (
-        <div className='' style={itemStyle}>
+        <div className='' style={itemStyle} key={index.id}>
             <img src={item.imgsrc} alt="" className='img-responsive w-100 collection-imgs'/>
             <h6 className='creator-heading'>{item.heading}</h6>
         <p className='creator-para'>{item.desc}</p>
