@@ -52,7 +52,7 @@ const ClubCard = () => {
         style={carouselStyle}
       > 
         {NfbClubs.map((item, index) => (
-          <div className='' style={itemStyle} key={index.id}> {/* Add a key to the outer div */}
+          <div className='' style={itemStyle} key={index}> {/* Add a key to the outer div */}
             <img src={item.imgsrc} alt="" className='img-responsive w-100 collection-img'/>
             <h6 className='creator-heading'>{item.heading}</h6>
             <p className='creator-para'>{item.desc}</p>
